@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css link -->
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Responsive website</title>
+</head>
+<body>
+    <div class="wrapper">
+        <section id="home">
+            <nav class="navbar">
+                <div class="logo">
+                    <img id="airplanelogo" src="./assets/12359381831582962165.svg" alt="logo">
+                    <img id="line" src="./assets/13048718681586788051.svg" alt="line">
+                    <h3 class="logo-name">TRAVELLER</h3> 
+                    <div class="menubar">
+                        <i class="fa-solid fa-bars"></i>
+                    </div> 
+                </div>
+                <div class="nav-menu">
+                    <ul class="nav-list">
+                        <li><a href="#home" class="nav-item">Home</a></li>
+                        <li><a href="#about" class="nav-item">About</a></li>
+                        <li><a href="#popular" class="nav-item">Popular</a></li>
+                        <li><a href="#explore" class="nav-item">Explore</a></li>
+                    </ul>
+                </div>
+
+
+            </nav>
+            <div class="homepage">
+                <h4>welcone to TRAVELLER</h4>
+                <h2>explore</h2>
+                <h2>the world</h2>
+                <p>Live the trips exploring the world, discover paradises <br>
+                    islands, mountains and much more, <a href="#" class="tripmsg">plan your trip now</a>
+                </p>
+                <button class="start btn ">start your journey <i class="fa-solid fa-arrow-right"></i></button>
+
+                <div class="gallery">
+                    <div class="container">
+                        <img src="./assets/kimberly-earp-iEaswh6X3iA-unsplash.jpg" alt="croatia">
+                        <h4>Croatia</h4>
+                    </div>
+                    <div class="container">
+                        <img src="./assets/nicolas-j-leclercq-va_nrBLonf8-unsplash.jpg" alt="greenland">
+                        <h4>Greenland</h4>
+                    </div>
+                    <div class="container">
+                        <img src="./assets/dan-novac-1naE8177_bI-unsplash.jpg" alt="WaterBridge">
+                        <h4>WaterBridge</h4>
+                    </div>                    
+                    <div class="container">
+                        <img src="./assets/canary-ride-DMt6bB9Q78c-unsplash.jpg" alt="spain">
+                        <h4>spain</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="about-info">
+                <h2 class="about-heading">Learn more <br> about TRAVELLER</h2>
+                <p class="about-inf">All the trips around the world are great pleasure and happiness for everyone, enjoy the sights when you travel the world. Travel safely without any worries. Get your trip and explore the paradise around the world. </p>
+                <button class="abt-btn btn">Explore TRAVELLER<i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <div class="about-img">
+                <img src="./assets/manali.jpg" alt="">
+            </div>
+        </section>
+
+        <section id="popular">
+            <h3 class="popular-heading">
+                enjoy the beauty <br> of the world.
+            </h3>
+            <div class="popular-container">
+                <div class="popular-info">
+                    <div class="popular-img-container">
+                        <img src="./assets/logan-weaver-lgnwvr-6oy7dRod-f8-unsplash.jpg" alt="">
+                    </div>
+                    <h4 class="popular-imgs-info">
+                        Logan Mountain
+                    </h4>
+                    <h6 class="popular-location"><i class="fa-solid fa-location-dot"></i>canada</h6>
+                </div>
+                <div class="popular-info">
+                    <div class="popular-img-container">
+                        <img src="./assets/filip-zrnzevic-QsWG0kjPQRY-unsplash.jpg" alt="">
+                    </div>
+                    <h4 class="popular-imgs-info">
+                        spike forest 
+                    </h4>
+                    <h6 class="popular-location"><i class="fa-solid fa-location-dot"></i>Ireland</h6>
+                </div>
+                <div class="popular-info">
+                    <div class="popular-img-container">
+                        <img src="./assets/alice-triquet-HeEJU3nrg_0-unsplash.jpg" alt="">
+                    </div>
+                    <h4 class="popular-imgs-info">
+                        Garda Lakes
+                    </h4>
+                    <h6 class="popular-location"><i class="fa-solid fa-location-dot"></i>Italy</h6>
+                </div>
+            </div>
+        </section>
+
+        <section id="explore">
+            <div class="explore-img-container">
+                <img src="./assets/croatia.jpg" alt="">
+            </div>
+            <div class="explore-info-container">
+                <h2>explore the <br>best paradise</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro iste amet earum atque facere aliquid voluptates ducimus, numquam distinctio, asperiores, laudantium dicta ex est culpa quia illo molestiae optio doloremque nostrum ea assumenda consequatur? Sunt, distinctio quasi voluptatibus autem accusantium modi quas?</p>
+            </div>
+        </section>
+        <footer>
+            <h3>Copyrights &copy; TRAVELLER Company <span id="date"></span> .all Rights Reserved</h3>
+        </footer>
+    </div>
+
+    <!-- gsap cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <script src="./app.js"></script>
+</body>
+</html>
